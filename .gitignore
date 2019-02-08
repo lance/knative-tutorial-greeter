@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .idea
 target/
@@ -11,6 +12,10 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+=======
+**/target
+!.mvn/wrapper/maven-wrapper.jar
+>>>>>>> adding target folder to gitignore
 
 .cache
 
@@ -29,3 +34,13 @@ work/**/*
 
 docker-build.yaml
 
+<<<<<<< HEAD
+=======
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+>>>>>>> adding target folder to gitignore
